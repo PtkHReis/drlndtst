@@ -16,7 +16,7 @@ if (process.env.NODE_ENV === "production") {
 }
 
 const corsOptions = {
-  origin: ["http://localhost:8082", "https://drlndtst.herokuapp.com/"],
+  origin: ["http://localhost:8080", "https://drlndtst.herokuapp.com/"],
   optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
 };
 app.use(cors(corsOptions));
