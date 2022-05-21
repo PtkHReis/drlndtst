@@ -23,7 +23,7 @@
   const serverUrl =
     process.env.NODE_ENV !== "production"
       ? "http://localhost:8080"
-      : "https://my-cool-backend-app.com";
+      : "https://drlndtst.herokuapp.com/";
   const contractAddress = "KT1VbJAzSAHQMvf5HC9zfEVMPbT2UcBvaMXb";
   let nftStorage = undefined;
   let userNfts: { tokenId: number; ipfsHash: string }[] = [];
